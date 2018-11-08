@@ -312,8 +312,9 @@ public class BasePage extends DriverFactory {
 				}
 			}
 		} catch (Exception e) {
-			System.out.println("Exception! - could not close the popup!, Exception: " + e.toString());
-			throw (e);
+			//System.out.println("Exception! - could not close the popup!, Exception: " + e.toString());
+			//throw (e);
+			System.err.println("Error came while waiting for the alert popup to appear. " + e.getMessage());
 		}
 	}
 
