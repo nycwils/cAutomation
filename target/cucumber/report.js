@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2910938478,
+  "duration": 2639918538,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "LoginSteps.user_navigates_to_nyu_contact_us_page()"
 });
 formatter.result({
-  "duration": 1085732253,
+  "duration": 1076615584,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_clicks_on_student_information()"
 });
 formatter.result({
-  "duration": 311044500,
+  "duration": 311564881,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.the_student_information_banner_should_be_displayed()"
 });
 formatter.result({
-  "duration": 20259409,
+  "duration": 19345523,
   "status": "passed"
 });
 formatter.after({
-  "duration": 513179515,
+  "duration": 606540401,
   "status": "passed"
 });
 });
