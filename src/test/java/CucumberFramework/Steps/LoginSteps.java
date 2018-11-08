@@ -47,7 +47,7 @@ public class LoginSteps extends DriverFactory {
 	       
 	    }
 
-	    @When("^User clicks on student information$")
+	    @When("^User clicks on student informationn$")
 	    public void user_clicks_on_student_information() throws Throwable {
 	    	contactuspage.clickStudentInformation();
 	     
