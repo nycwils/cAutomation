@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class ContactUs_Page extends BasePage {
-	public @FindBy(linkText = "Student Information") WebElement link_StudentInformation; 
+	public @FindBy(linkText = "Student Informationn") WebElement link_StudentInformation; 
 	public @FindBy(linkText = "Parents") WebElement link_Parents; 
 	public @FindBy(linkText = "University Development and Alumni Relations") WebElement link_UniversityDevelopment; 
 	public @FindBy(xpath = "/html/body/div/main/div[1]/div[2]/div/div/h2") WebElement StudentInformationHeader; 
